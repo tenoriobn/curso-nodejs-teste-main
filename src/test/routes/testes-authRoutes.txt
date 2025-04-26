@@ -1,0 +1,4 @@
+OK - O login deve possuir um e-mail e senha para se autenticar;
+O login deve validar se o usuário está cadastrado;
+O login deve validar e-mail e senha incorreto;
+O login deve validar se esta sendo retornado um accessToken.
