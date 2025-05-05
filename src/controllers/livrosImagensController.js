@@ -26,7 +26,7 @@ class LivrosImagensController {
   static cadastrarImagem = async (req, res) => {
     try {
       const resposta = await livrosImagensService.cadastrarImagem(req);
-      
+
       return res.status(201).json(resposta);
     } catch (err) {
       return res.status(500).json(err.message);
